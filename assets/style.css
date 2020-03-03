@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: #232323;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: #226699;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 300%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+.menuBar {
+    height: 30px;
+    background: white;
+    text-align: center;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    background: #232323;
+    border-radius: 15%;
+    float: left;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+button {
+    height: 100%;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background: white;
+    color: #226699;;
+    flex: content;
+    font-size: inherit;
+    transition: all 0.15s;
+	-webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+}
+
+button:hover {
+	color: white;
+	background: #226699;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#resetBtn {
+    width: 160px;
+}
+
+.selected {
+    color: white;
+	background: #226699;
+}
